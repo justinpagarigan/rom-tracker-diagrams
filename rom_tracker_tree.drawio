@@ -1,134 +1,210 @@
-<mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+<mxGraphModel dx="1622" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1600" math="0" shadow="0">
   <root>
     <mxCell id="0" />
     <mxCell id="1" parent="0" />
 
     <!-- ROOT -->
-    <mxCell id="root" value="Wearable ROM Tracker" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEDFE;strokeColor=#534AB7;fontColor=#26215C;fontStyle=1;fontSize=16;" vertex="1" parent="1">
-      <mxGeometry x="627" y="40" width="280" height="54" as="geometry" />
+    <mxCell id="root" value="Wearable ROM Tracker" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEDFE;strokeColor=#534AB7;fontColor=#26215C;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+      <mxGeometry x="900" y="40" width="280" height="60" as="geometry" />
     </mxCell>
 
-    <!-- LEVEL 1 BRANCHES -->
-    <mxCell id="hw" value="Hardware" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#0F6E56;fontColor=#085041;fontStyle=1;fontSize=13;" vertex="1" parent="1">
-      <mxGeometry x="100" y="160" width="180" height="44" as="geometry" />
+    <!-- LEVEL 1: 5 main branches -->
+    <mxCell id="b1" value="Market Research" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAECE7;strokeColor=#993C1D;fontColor=#712B13;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+      <mxGeometry x="100" y="180" width="200" height="50" as="geometry" />
     </mxCell>
-    <mxCell id="fw" value="Firmware" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#0F6E56;fontColor=#085041;fontStyle=1;fontSize=13;" vertex="1" parent="1">
-      <mxGeometry x="400" y="160" width="180" height="44" as="geometry" />
+    <mxCell id="b2" value="Hardware" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#0F6E56;fontColor=#085041;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+      <mxGeometry x="440" y="180" width="200" height="50" as="geometry" />
     </mxCell>
-    <mxCell id="app" value="Mobile App" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#854F0B;fontColor=#633806;fontStyle=1;fontSize=13;" vertex="1" parent="1">
-      <mxGeometry x="760" y="160" width="180" height="44" as="geometry" />
+    <mxCell id="b3" value="Firmware" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#0F6E56;fontColor=#085041;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+      <mxGeometry x="800" y="180" width="200" height="50" as="geometry" />
     </mxCell>
-    <mxCell id="val" value="Validation &amp; V2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAECE7;strokeColor=#993C1D;fontColor=#712B13;fontStyle=1;fontSize=13;" vertex="1" parent="1">
-      <mxGeometry x="1120" y="160" width="180" height="44" as="geometry" />
+    <mxCell id="b4" value="Mobile App" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#854F0B;fontColor=#633806;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+      <mxGeometry x="1160" y="180" width="200" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="b5" value="V2 &amp; Future" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEDFE;strokeColor=#534AB7;fontColor=#3C3489;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+      <mxGeometry x="1560" y="180" width="200" height="50" as="geometry" />
     </mxCell>
 
-    <!-- ROOT → L1 edges -->
-    <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#888780;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" source="root" target="hw" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#888780;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" source="root" target="fw" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#888780;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" source="root" target="app" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#888780;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" source="root" target="val" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <!-- Root edges -->
+    <mxCell id="re1" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#888780;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" source="root" target="b1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="re2" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#888780;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" source="root" target="b2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="re3" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#888780;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" source="root" target="b3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="re4" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#888780;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" source="root" target="b4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="re5" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#888780;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" source="root" target="b5" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- MARKET RESEARCH children -->
+    <mxCell id="m1" value="Gap: no consumer&#xa;joint-angle tracker" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAECE7;strokeColor=#D85A30;fontColor=#712B13;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="20" y="320" width="160" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="m2" value="Xsens DOT&#xa;Clinical/lab grade" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAECE7;strokeColor=#D85A30;fontColor=#712B13;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="200" y="320" width="160" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="m3" value="Hinge Health&#xa;Sensors + PT team" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAECE7;strokeColor=#D85A30;fontColor=#712B13;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="20" y="390" width="160" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="m4" value="Athos EMG clothing&#xa;Muscle, not angle" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAECE7;strokeColor=#D85A30;fontColor=#712B13;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="200" y="390" width="160" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="m5" value="Technogym Biodrive&#xa;Force + angle + velocity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAECE7;strokeColor=#D85A30;fontColor=#712B13;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="20" y="460" width="160" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="m6" value="SyncKnee (2025)&#xa;Angle + swelling, research" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAECE7;strokeColor=#D85A30;fontColor=#712B13;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="200" y="460" width="160" height="50" as="geometry" />
+    </mxCell>
+
+    <mxCell id="em1" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#D85A30;" edge="1" source="b1" target="m1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="em2" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#D85A30;" edge="1" source="b1" target="m2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="em3" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#D85A30;" edge="1" source="b1" target="m3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="em4" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#D85A30;" edge="1" source="b1" target="m4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="em5" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#D85A30;" edge="1" source="b1" target="m5" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="em6" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#D85A30;" edge="1" source="b1" target="m6" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
 
     <!-- HARDWARE children -->
-    <mxCell id="hw1" value="2x Seeed XIAO nRF52840&#xa;~$16 each" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="20" y="290" width="160" height="50" as="geometry" />
+    <mxCell id="hw1" value="2x Seeed XIAO&#xa;nRF52840 Sense ~$16ea" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="360" y="320" width="170" height="50" as="geometry" />
     </mxCell>
     <mxCell id="hw2" value="2x LiPo 150mAh JST&#xa;~$5 each" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="200" y="290" width="160" height="50" as="geometry" />
+      <mxGeometry x="550" y="320" width="170" height="50" as="geometry" />
     </mxCell>
-    <mxCell id="hw3" value="IMU: LSM6DS3&#xa;built into XIAO" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="20" y="370" width="160" height="50" as="geometry" />
+    <mxCell id="hw3" value="IMU: LSM6DS3&#xa;Built into XIAO" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="360" y="390" width="170" height="50" as="geometry" />
     </mxCell>
     <mxCell id="hw4" value="Elastic armband&#xa;or velcro mount" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="200" y="370" width="160" height="50" as="geometry" />
+      <mxGeometry x="550" y="390" width="170" height="50" as="geometry" />
     </mxCell>
-    <mxCell id="ehw1" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="hw" target="hw1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="ehw2" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="hw" target="hw2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="ehw3" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="hw" target="hw3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="ehw4" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="hw" target="hw4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="hw5" value="21x17.5mm form factor&#xa;Smallest in class" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="360" y="460" width="170" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="hw6" value="Built-in LiPo charging&#xa;No extra circuit needed" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="550" y="460" width="170" height="50" as="geometry" />
+    </mxCell>
+
+    <mxCell id="ehw1" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b2" target="hw1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="ehw2" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b2" target="hw2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="ehw3" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b2" target="hw3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="ehw4" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b2" target="hw4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="ehw5" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b2" target="hw5" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="ehw6" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b2" target="hw6" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
 
     <!-- FIRMWARE children -->
     <mxCell id="fw1" value="Joint angle calc&#xa;Quaternion delta" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="310" y="290" width="150" height="50" as="geometry" />
+      <mxGeometry x="720" y="320" width="160" height="50" as="geometry" />
     </mxCell>
-    <mxCell id="fw2" value="Rep counter&#xa;Flex &gt;120° → &lt;30°" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="480" y="290" width="150" height="50" as="geometry" />
+    <mxCell id="fw2" value="Rep counter&#xa;Flex &gt;120 then &lt;30 = 1 rep" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="900" y="320" width="160" height="50" as="geometry" />
     </mxCell>
-    <mxCell id="fw3" value="Deep sleep cycle&#xa;5µA idle · 12hr life" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="310" y="370" width="150" height="50" as="geometry" />
+    <mxCell id="fw3" value="Deep sleep duty cycle&#xa;5uA idle, 12hr battery" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="720" y="390" width="160" height="50" as="geometry" />
     </mxCell>
-    <mxCell id="fw4" value="BLE GATT stream&#xa;angle + rep + time" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="480" y="370" width="150" height="50" as="geometry" />
+    <mxCell id="fw4" value="BLE GATT streaming&#xa;angle + rep + timestamp" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="900" y="390" width="160" height="50" as="geometry" />
     </mxCell>
-    <mxCell id="efw1" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="fw" target="fw1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="efw2" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="fw" target="fw2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="efw3" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="fw" target="fw3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="efw4" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="fw" target="fw4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="fw5" value="Wake on motion&#xa;every 10ms in set" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="720" y="460" width="160" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="fw6" value="Min/max ROM per rep&#xa;tracked per set" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="900" y="460" width="160" height="50" as="geometry" />
+    </mxCell>
+
+    <mxCell id="efw1" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b3" target="fw1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="efw2" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b3" target="fw2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="efw3" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b3" target="fw3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="efw4" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b3" target="fw4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="efw5" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b3" target="fw5" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="efw6" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b3" target="fw6" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
 
     <!-- APP children -->
-    <mxCell id="app1" value="BLE scan + connect&#xa;Auto-reconnect" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#EF9F27;fontColor=#633806;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="670" y="290" width="150" height="50" as="geometry" />
+    <mxCell id="ap1" value="MIT App Inventor&#xa;Fastest PoC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#EF9F27;fontColor=#633806;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="1080" y="320" width="160" height="50" as="geometry" />
     </mxCell>
-    <mxCell id="app2" value="Live angle graph&#xa;Min/max per rep" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#EF9F27;fontColor=#633806;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="840" y="290" width="150" height="50" as="geometry" />
+    <mxCell id="ap2" value="Flutter + flutter_blue&#xa;Best for production" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#EF9F27;fontColor=#633806;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="1260" y="320" width="160" height="50" as="geometry" />
     </mxCell>
-    <mxCell id="app3" value="Rep counter UI&#xa;Large display" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#EF9F27;fontColor=#633806;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="670" y="370" width="150" height="50" as="geometry" />
+    <mxCell id="ap3" value="Live angle graph&#xa;Real-time line chart" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#EF9F27;fontColor=#633806;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="1080" y="390" width="160" height="50" as="geometry" />
     </mxCell>
-    <mxCell id="app4" value="Session summary&#xa;Avg ROM · best ROM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#EF9F27;fontColor=#633806;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="840" y="370" width="150" height="50" as="geometry" />
+    <mxCell id="ap4" value="Rep counter UI&#xa;Large display" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#EF9F27;fontColor=#633806;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="1260" y="390" width="160" height="50" as="geometry" />
     </mxCell>
-    <mxCell id="eapp1" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#EF9F27;" edge="1" source="app" target="app1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="eapp2" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#EF9F27;" edge="1" source="app" target="app2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="eapp3" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#EF9F27;" edge="1" source="app" target="app3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="eapp4" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#EF9F27;" edge="1" source="app" target="app4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="ap5" value="Session summary&#xa;Avg ROM, best ROM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#EF9F27;fontColor=#633806;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="1080" y="460" width="160" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="ap6" value="BLE scan + auto-reconnect&#xa;GATT notifications" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#EF9F27;fontColor=#633806;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="1260" y="460" width="160" height="50" as="geometry" />
+    </mxCell>
 
-    <!-- VALIDATION children -->
-    <mxCell id="val1" value="Accuracy test&#xa;vs goniometer ±5°" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAECE7;strokeColor=#D85A30;fontColor=#712B13;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="1030" y="290" width="150" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="val2" value="Form feedback&#xa;Haptic on bad ROM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAECE7;strokeColor=#D85A30;fontColor=#712B13;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="1200" y="290" width="150" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="val3" value="More exercises&#xa;Squat · Shoulder · DL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAECE7;strokeColor=#D85A30;fontColor=#712B13;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="1030" y="370" width="150" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="val4" value="V2: smart sleeve&#xa;Custom PCB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAECE7;strokeColor=#D85A30;fontColor=#712B13;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="1200" y="370" width="150" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="eval1" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#D85A30;" edge="1" source="val" target="val1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="eval2" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#D85A30;" edge="1" source="val" target="val2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="eval3" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#D85A30;" edge="1" source="val" target="val3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="eval4" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#D85A30;" edge="1" source="val" target="val4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="eap1" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#EF9F27;" edge="1" source="b4" target="ap1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="eap2" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#EF9F27;" edge="1" source="b4" target="ap2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="eap3" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#EF9F27;" edge="1" source="b4" target="ap3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="eap4" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#EF9F27;" edge="1" source="b4" target="ap4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="eap5" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#EF9F27;" edge="1" source="b4" target="ap5" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="eap6" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#EF9F27;" edge="1" source="b4" target="ap6" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
 
-    <!-- LEVEL 3 — deep leaves under firmware -->
-    <mxCell id="fw4a" value="Packet format&#xa;[angle, rep, ms]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EFE8;strokeColor=#888780;fontColor=#444441;fontSize=10;" vertex="1" parent="1">
-      <mxGeometry x="440" y="460" width="130" height="44" as="geometry" />
+    <!-- V2 & FUTURE children -->
+    <mxCell id="v1" value="Smart sleeve&#xa;Single joint target" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEDFE;strokeColor=#7F77DD;fontColor=#3C3489;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="1480" y="320" width="160" height="50" as="geometry" />
     </mxCell>
-    <mxCell id="fw4b" value="Custom GATT&#xa;service UUID" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EFE8;strokeColor=#888780;fontColor=#444441;fontSize=10;" vertex="1" parent="1">
-      <mxGeometry x="590" y="460" width="130" height="44" as="geometry" />
+    <mxCell id="v2" value="Custom PCB&#xa;nRF52840 chip" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEDFE;strokeColor=#7F77DD;fontColor=#3C3489;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="1660" y="320" width="160" height="50" as="geometry" />
     </mxCell>
-    <mxCell id="efw4a" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#B4B2A9;" edge="1" source="fw4" target="fw4a" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="efw4b" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#B4B2A9;" edge="1" source="fw4" target="fw4b" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="v3" value="More exercises&#xa;Squat, shoulder, deadlift" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEDFE;strokeColor=#7F77DD;fontColor=#3C3489;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="1480" y="390" width="160" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="v4" value="Force estimation&#xa;IMU + known weight" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEDFE;strokeColor=#7F77DD;fontColor=#3C3489;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="1660" y="390" width="160" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="v5" value="Textile sensors&#xa;SyncKnee approach" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEDFE;strokeColor=#7F77DD;fontColor=#3C3489;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="1480" y="460" width="160" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="v6" value="Haptic form feedback&#xa;Buzz on bad ROM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEDFE;strokeColor=#7F77DD;fontColor=#3C3489;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="1660" y="460" width="160" height="50" as="geometry" />
+    </mxCell>
 
-    <!-- LEVEL 3 — deep leaves under app platform -->
-    <mxCell id="app0a" value="MIT App Inventor&#xa;Fastest PoC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EFE8;strokeColor=#888780;fontColor=#444441;fontSize=10;" vertex="1" parent="1">
-      <mxGeometry x="630" y="460" width="130" height="44" as="geometry" />
-    </mxCell>
-    <mxCell id="app0b" value="Flutter&#xa;Best for production" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EFE8;strokeColor=#888780;fontColor=#444441;fontSize=10;" vertex="1" parent="1">
-      <mxGeometry x="780" y="460" width="130" height="44" as="geometry" />
-    </mxCell>
-    <mxCell id="eapp0a" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#B4B2A9;" edge="1" source="app1" target="app0a" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="eapp0b" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#B4B2A9;" edge="1" source="app1" target="app0b" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="ev1" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#7F77DD;" edge="1" source="b5" target="v1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="ev2" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#7F77DD;" edge="1" source="b5" target="v2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="ev3" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#7F77DD;" edge="1" source="b5" target="v3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="ev4" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#7F77DD;" edge="1" source="b5" target="v4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="ev5" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#7F77DD;" edge="1" source="b5" target="v5" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="ev6" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#7F77DD;" edge="1" source="b5" target="v6" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
 
-    <!-- LEVEL 3 — V2 smart sleeve detail -->
-    <mxCell id="val4a" value="SyncKnee-style&#xa;textile sensors" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EFE8;strokeColor=#888780;fontColor=#444441;fontSize=10;" vertex="1" parent="1">
-      <mxGeometry x="1160" y="460" width="130" height="44" as="geometry" />
+    <!-- LEVEL 3: deep sleep detail under fw3 -->
+    <mxCell id="fw3a" value="Active: 7-15mA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EFE8;strokeColor=#888780;fontColor=#444441;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="650" y="560" width="140" height="40" as="geometry" />
     </mxCell>
-    <mxCell id="val4b" value="Single-joint sleeve&#xa;knee or shoulder" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EFE8;strokeColor=#888780;fontColor=#444441;fontSize=10;" vertex="1" parent="1">
-      <mxGeometry x="1310" y="460" width="130" height="44" as="geometry" />
+    <mxCell id="fw3b" value="Sleep: 5uA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EFE8;strokeColor=#888780;fontColor=#444441;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="810" y="560" width="140" height="40" as="geometry" />
     </mxCell>
-    <mxCell id="eval4a" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#B4B2A9;" edge="1" source="val4" target="val4a" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="eval4b" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#B4B2A9;" edge="1" source="val4" target="val4b" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="fw3c" value="150mAh = ~12hr active" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EFE8;strokeColor=#888780;fontColor=#444441;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="730" y="620" width="160" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="efw3a" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#B4B2A9;" edge="1" source="fw3" target="fw3a" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="efw3b" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#B4B2A9;" edge="1" source="fw3" target="fw3b" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="efw3c" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#B4B2A9;" edge="1" source="fw3b" target="fw3c" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- LEVEL 3: Technogym detail under m5 -->
+    <mxCell id="m5a" value="Biodrive: 6 resistance types" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EFE8;strokeColor=#888780;fontColor=#444441;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="20" y="560" width="160" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="m5b" value="Replicable with 2x IMUs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EFE8;strokeColor=#888780;fontColor=#444441;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="200" y="560" width="160" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="em5a" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#B4B2A9;" edge="1" source="m5" target="m5a" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="em5b" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#B4B2A9;" edge="1" source="m5" target="m5b" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- POC callout box -->
+    <mxCell id="poc" value="PoC: Bicep Curl" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF3DE;strokeColor=#3B6D11;fontColor=#27500A;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="440" y="580" width="180" height="44" as="geometry" />
+    </mxCell>
+    <mxCell id="epoc1" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#3B6D11;dashed=1;" edge="1" source="b2" target="poc" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="epoc2" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#3B6D11;dashed=1;" edge="1" source="b3" target="poc" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="poc1" value="One sensor upper arm&#xa;One sensor lower arm" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF3DE;strokeColor=#639922;fontColor=#27500A;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="360" y="660" width="160" height="44" as="geometry" />
+    </mxCell>
+    <mxCell id="poc2" value="Detect flex angle delta&#xa;Count full reps" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF3DE;strokeColor=#639922;fontColor=#27500A;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="540" y="660" width="160" height="44" as="geometry" />
+    </mxCell>
+    <mxCell id="epoc3" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#639922;" edge="1" source="poc" target="poc1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="epoc4" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#639922;" edge="1" source="poc" target="poc2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
 
   </root>
 </mxGraphModel>
