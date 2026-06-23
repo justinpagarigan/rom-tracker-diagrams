@@ -210,4 +210,200 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="page3" name="Learning Resources">
+    <mxGraphModel dx="1622" dy="900" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="2200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- TITLE -->
+        <mxCell id="title" value="Learning Resources — Wearable ROM Tracker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=22;fontColor=#26215C;" vertex="1" parent="1">
+          <mxGeometry x="600" y="30" width="1200" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- PIPELINE HEADER -->
+        <mxCell id="pipe_label" value="Your Project Pipeline" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontStyle=1;fontSize=13;fontColor=#888;" vertex="1" parent="1">
+          <mxGeometry x="600" y="90" width="1200" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- PIPELINE NODES -->
+        <mxCell id="p1" value="IMU Sensor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#0F6E56;fontColor=#085041;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="200" y="130" width="140" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="p2" value="Microcontroller" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#0F6E56;fontColor=#085041;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="500" y="130" width="140" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="p3" value="BLE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#854F0B;fontColor=#633806;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="800" y="130" width="140" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="p4" value="Mobile App" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#854F0B;fontColor=#633806;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="130" width="140" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="p5" value="Display &amp; Analytics" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEDFE;strokeColor=#534AB7;fontColor=#3C3489;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="130" width="160" height="45" as="geometry" />
+        </mxCell>
+
+        <!-- PIPELINE ARROWS -->
+        <mxCell id="pe1" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#888;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="p1" target="p2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="pe2" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#888;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="p2" target="p3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="pe3" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#888;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="p3" target="p4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="pe4" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#888;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="p4" target="p5" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <!-- SECTION 1: ELECTRONICS / I2C -->
+        <mxCell id="s1_header" value="1. Electronics &amp; I2C" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#0F6E56;fontColor=#085041;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="260" width="280" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="s1_why" value="&lt;b&gt;Why it matters:&lt;/b&gt; The BNO055 IMU talks to your ESP32/XIAO over I2C — 2 wires, master/slave. Without this you cannot read sensor data." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=11;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s1_v1" value="📺 What is I2C — Basics for Beginners&#xa;youtube.com/watch?v=jFtr0Ha5f-c" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4FD;strokeColor=#2196F3;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="80" y="405" width="280" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="s1_v2" value="📺 Understanding I2C — Rohde &amp; Schwarz&#xa;youtube.com/watch?v=CAvawEcxoPU" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4FD;strokeColor=#2196F3;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="80" y="460" width="280" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="s1_proj" value="🔗 Project: Reading BNO055 via Wire.h on Seeed XIAO nRF52840" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="80" y="515" width="280" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- SECTION 2: IMU & SENSOR FUSION -->
+        <mxCell id="s2_header" value="2. IMU &amp; Sensor Fusion" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#0F6E56;fontColor=#085041;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="400" y="260" width="280" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="s2_why" value="&lt;b&gt;Why it matters:&lt;/b&gt; Accel + gyro are noisy/drifty alone. Fusion gives stable Euler angles = your ROM measurement. BNO055 does this onboard." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=11;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="400" y="320" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s2_v1" value="📺 Accel &amp; Gyro — Sensor Fusion #1 (Phil&apos;s Lab)&#xa;youtube.com/watch?v=RZd6XDx5VXo" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4FD;strokeColor=#2196F3;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="400" y="405" width="280" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="s2_v2" value="📺 Complementary Filter (Paul McWhorter)&#xa;youtube.com/watch?v=cUFqSGYZO5k" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4FD;strokeColor=#2196F3;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="400" y="460" width="280" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="s2_v3" value="📺 MathWorks Sensor Fusion Series (playlist)&#xa;youtube.com/playlist?list=PLn8PRpmsu08r..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4FD;strokeColor=#2196F3;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="400" y="515" width="280" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="s2_proj" value="🔗 Project: Getting pitch/roll from BNO055 Euler output for bicep curl angle" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="400" y="570" width="280" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- SECTION 3: EMBEDDED / ARDUINO -->
+        <mxCell id="s3_header" value="3. Embedded Systems / Arduino" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#0F6E56;fontColor=#085041;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="720" y="260" width="280" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="s3_why" value="&lt;b&gt;Why it matters:&lt;/b&gt; Seeed XIAO nRF52840 runs C++ firmware. You write the loop that reads sensor data, manages duty cycling, and sends BLE packets." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=11;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="720" y="320" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s3_v1" value="📺 Learn Embedded Systems (channel)&#xa;youtube.com/@LearnEmbeddedSystems" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4FD;strokeColor=#2196F3;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="720" y="405" width="280" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="s3_v2" value="📖 Wireless IMU + BLE walkthrough — Sean Ng&#xa;seanng.my/2020/07/15/wireless-imu-sensor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4FD;strokeColor=#2196F3;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="720" y="460" width="280" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="s3_proj" value="🔗 Project: Firmware loop: read IMU → duty cycle sleep → BLE notify" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="720" y="515" width="280" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- SECTION 4: BLE -->
+        <mxCell id="s4_header" value="4. Bluetooth Low Energy (BLE)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#854F0B;fontColor=#633806;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="260" width="280" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="s4_why" value="&lt;b&gt;Why it matters:&lt;/b&gt; BLE GATT streams angle data from both XIAOs to the phone. You define a custom Service + Characteristic, notify every ~20ms." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=11;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="320" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s4_v1" value="📺 BLE Explained — Beginner&apos;s Guide (2025)&#xa;youtube.com/watch?v=k6DpB8hmgrs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4FD;strokeColor=#2196F3;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="405" width="280" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="s4_v2" value="📺 BLE Theoretical Overview&#xa;youtube.com/watch?v=GnRRutaqE5s" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4FD;strokeColor=#2196F3;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="460" width="280" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="s4_v3" value="📖 Adafruit GATT Guide&#xa;learn.adafruit.com/introduction-to-bluetooth-low-energy/gatt" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4FD;strokeColor=#2196F3;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="515" width="280" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="s4_proj" value="🔗 Project: Custom GATT service to stream bilateral joint angles" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="570" width="280" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- SECTION 5: SIGNAL PROCESSING -->
+        <mxCell id="s5_header" value="5. Signal Processing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#854F0B;fontColor=#633806;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="260" width="280" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="s5_why" value="&lt;b&gt;Why it matters:&lt;/b&gt; Raw angle data is noisy. Low-pass filters smooth the curve; peak detection finds rep tops/bottoms; min/max gives ROM per rep." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=11;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="320" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s5_v1" value="📺 Digital Low-Pass Filter on Arduino&#xa;youtube.com/watch?v=HJ-C4Incgpw" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4FD;strokeColor=#2196F3;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="405" width="280" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="s5_v2" value="📖 IMU Sensor Fusion — SageMotion&#xa;sagemotion.com/blog/how-does-imu-sensor-fusion-work" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4FD;strokeColor=#2196F3;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="460" width="280" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="s5_proj" value="🔗 Project: Smooth angle stream → detect rep peaks → log ROM per rep" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="515" width="280" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- SECTION 6: MOBILE APP -->
+        <mxCell id="s6_header" value="6. Mobile App Development" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEDFE;strokeColor=#534AB7;fontColor=#3C3489;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="260" width="280" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="s6_why" value="&lt;b&gt;Why it matters:&lt;/b&gt; The app (Flutter or MIT App Inventor) scans BLE, decodes angle bytes, shows live chart, logs ROM per rep and per session." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=11;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="320" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s6_v1" value="📺 React Native + BLE (react-native-ble-plx)&#xa;Search: react native ble plx tutorial 2024" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4FD;strokeColor=#2196F3;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="405" width="280" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="s6_v2" value="📖 Android BLE Guide — Punch Through&#xa;punchthrough.com/android-ble-guide" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4FD;strokeColor=#2196F3;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="460" width="280" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="s6_proj" value="🔗 Project: BLE scan → connect → parse bytes → live angle chart + session log" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="515" width="280" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- CONNECTOR ARROWS: pipeline to sections -->
+        <mxCell id="c1" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#0F6E56;strokeWidth=1.5;dashed=1;" edge="1" source="p1" target="s1_header" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="c2" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#0F6E56;strokeWidth=1.5;dashed=1;" edge="1" source="p2" target="s3_header" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="c3" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#854F0B;strokeWidth=1.5;dashed=1;" edge="1" source="p3" target="s4_header" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="c4" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#534AB7;strokeWidth=1.5;dashed=1;" edge="1" source="p4" target="s6_header" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <!-- STUDY ORDER -->
+        <mxCell id="order_header" value="Suggested Study Order" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontStyle=1;fontSize=14;fontColor=#26215C;" vertex="1" parent="1">
+          <mxGeometry x="80" y="660" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="order1" value="① I2C Basics (15 min)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#0F6E56;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="80" y="700" width="190" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="order2" value="② IMU / Sensor Fusion (50 min)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#0F6E56;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="300" y="700" width="210" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="order3" value="③ BLE Beginner Guide (25 min)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#854F0B;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="540" y="700" width="210" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="order4" value="④ Adafruit GATT Article (15 min)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#854F0B;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="780" y="700" width="210" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="order5" value="⑤ Embedded Systems playlist" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#0F6E56;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="700" width="210" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="order6" value="⑥ Low-Pass Filter Arduino (20 min)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#854F0B;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="700" width="220" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="oa1" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#888;strokeWidth=1.5;" edge="1" source="order1" target="order2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="oa2" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#888;strokeWidth=1.5;" edge="1" source="order2" target="order3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="oa3" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#888;strokeWidth=1.5;" edge="1" source="order3" target="order4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="oa4" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#888;strokeWidth=1.5;" edge="1" source="order4" target="order5" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="oa5" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#888;strokeWidth=1.5;" edge="1" source="order5" target="order6" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <!-- LEGEND -->
+        <mxCell id="leg1" value="📺 = YouTube Video" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4FD;strokeColor=#2196F3;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="700" width="180" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="leg2" value="📖 = Article / Guide" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4FD;strokeColor=#2196F3;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="700" width="180" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="leg3" value="🔗 = Connects to your project" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="2000" y="700" width="230" height="35" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
 </mxfile>
+
