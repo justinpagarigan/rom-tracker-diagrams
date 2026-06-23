@@ -1,316 +1,213 @@
-<mxGraphModel dx="1622" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1800" math="0" shadow="0">
-  <root>
-    <mxCell id="0" />
-    <mxCell id="1" parent="0" />
+<mxfile host="app.diagrams.net">
+  <diagram id="page1" name="Tree">
+    <mxGraphModel dx="1622" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
 
-    <!-- ==================== PAGE 1: TREE ==================== -->
+        <!-- ROOT -->
+        <mxCell id="root" value="Wearable ROM Tracker" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEDFE;strokeColor=#534AB7;fontColor=#26215C;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="40" width="280" height="60" as="geometry" />
+        </mxCell>
 
-    <!-- ROOT -->
-    <mxCell id="root" value="Wearable ROM Tracker" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEDFE;strokeColor=#534AB7;fontColor=#26215C;fontStyle=1;fontSize=18;" vertex="1" parent="1">
-      <mxGeometry x="1000" y="40" width="280" height="60" as="geometry" />
-    </mxCell>
+        <!-- LEVEL 1 -->
+        <mxCell id="b1" value="Market Research" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAECE7;strokeColor=#993C1D;fontColor=#712B13;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="80" y="180" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="b2" value="Hardware" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#0F6E56;fontColor=#085041;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="460" y="180" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="b3" value="Firmware" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#0F6E56;fontColor=#085041;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="860" y="180" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="b4" value="Mobile App" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#854F0B;fontColor=#633806;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="180" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="b5" value="V2 &amp; Future" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEDFE;strokeColor=#534AB7;fontColor=#3C3489;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="180" width="200" height="50" as="geometry" />
+        </mxCell>
 
-    <!-- LEVEL 1 -->
-    <mxCell id="b1" value="Market Research" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAECE7;strokeColor=#993C1D;fontColor=#712B13;fontStyle=1;fontSize=13;" vertex="1" parent="1">
-      <mxGeometry x="80" y="180" width="200" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="b2" value="Hardware" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#0F6E56;fontColor=#085041;fontStyle=1;fontSize=13;" vertex="1" parent="1">
-      <mxGeometry x="460" y="180" width="200" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="b3" value="Firmware" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#0F6E56;fontColor=#085041;fontStyle=1;fontSize=13;" vertex="1" parent="1">
-      <mxGeometry x="860" y="180" width="200" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="b4" value="Mobile App" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#854F0B;fontColor=#633806;fontStyle=1;fontSize=13;" vertex="1" parent="1">
-      <mxGeometry x="1260" y="180" width="200" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="b5" value="V2 &amp; Future" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEDFE;strokeColor=#534AB7;fontColor=#3C3489;fontStyle=1;fontSize=13;" vertex="1" parent="1">
-      <mxGeometry x="1680" y="180" width="200" height="50" as="geometry" />
-    </mxCell>
+        <mxCell id="re1" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#888780;strokeWidth=1.5;" edge="1" source="root" target="b1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="re2" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#888780;strokeWidth=1.5;" edge="1" source="root" target="b2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="re3" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#888780;strokeWidth=1.5;" edge="1" source="root" target="b3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="re4" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#888780;strokeWidth=1.5;" edge="1" source="root" target="b4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="re5" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#888780;strokeWidth=1.5;" edge="1" source="root" target="b5" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
 
-    <mxCell id="re1" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#888780;strokeWidth=1.5;" edge="1" source="root" target="b1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="re2" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#888780;strokeWidth=1.5;" edge="1" source="root" target="b2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="re3" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#888780;strokeWidth=1.5;" edge="1" source="root" target="b3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="re4" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#888780;strokeWidth=1.5;" edge="1" source="root" target="b4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="re5" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#888780;strokeWidth=1.5;" edge="1" source="root" target="b5" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- MARKET RESEARCH -->
+        <mxCell id="m1" value="Consumer gap&#xa;No joint-angle tracker" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAECE7;strokeColor=#D85A30;fontColor=#712B13;fontSize=11;" vertex="1" parent="1"><mxGeometry x="20" y="320" width="155" height="50" as="geometry"/></mxCell>
+        <mxCell id="m2" value="Xsens DOT&#xa;Clinical/lab grade" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAECE7;strokeColor=#D85A30;fontColor=#712B13;fontSize=11;" vertex="1" parent="1"><mxGeometry x="190" y="320" width="155" height="50" as="geometry"/></mxCell>
+        <mxCell id="m3" value="Hinge Health&#xa;Sensors + PT team" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAECE7;strokeColor=#D85A30;fontColor=#712B13;fontSize=11;" vertex="1" parent="1"><mxGeometry x="20" y="390" width="155" height="50" as="geometry"/></mxCell>
+        <mxCell id="m4" value="Athos EMG clothing&#xa;Muscle, not angle" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAECE7;strokeColor=#D85A30;fontColor=#712B13;fontSize=11;" vertex="1" parent="1"><mxGeometry x="190" y="390" width="155" height="50" as="geometry"/></mxCell>
+        <mxCell id="m5" value="Technogym Biodrive&#xa;Force + angle + velocity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAECE7;strokeColor=#D85A30;fontColor=#712B13;fontSize=11;" vertex="1" parent="1"><mxGeometry x="20" y="460" width="155" height="50" as="geometry"/></mxCell>
+        <mxCell id="m6" value="SyncKnee (2025)&#xa;Angle + swelling" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAECE7;strokeColor=#D85A30;fontColor=#712B13;fontSize=11;" vertex="1" parent="1"><mxGeometry x="190" y="460" width="155" height="50" as="geometry"/></mxCell>
+        <mxCell id="m7" value="MagDot (academic)&#xa;±2.72° elbow accuracy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAECE7;strokeColor=#D85A30;fontColor=#712B13;fontSize=11;" vertex="1" parent="1"><mxGeometry x="20" y="530" width="155" height="50" as="geometry"/></mxCell>
+        <mxCell id="m8" value="Kinetisense&#xa;Camera AI, no wearable" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAECE7;strokeColor=#D85A30;fontColor=#712B13;fontSize=11;" vertex="1" parent="1"><mxGeometry x="190" y="530" width="155" height="50" as="geometry"/></mxCell>
+        <mxCell id="em1" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#D85A30;" edge="1" source="b1" target="m1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="em2" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#D85A30;" edge="1" source="b1" target="m2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="em3" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#D85A30;" edge="1" source="b1" target="m3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="em4" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#D85A30;" edge="1" source="b1" target="m4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="em5" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#D85A30;" edge="1" source="b1" target="m5" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="em6" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#D85A30;" edge="1" source="b1" target="m6" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="em7" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#D85A30;" edge="1" source="b1" target="m7" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="em8" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#D85A30;" edge="1" source="b1" target="m8" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="m5a" value="6 resistance types" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EFE8;strokeColor=#888780;fontColor=#444441;fontSize=10;" vertex="1" parent="1"><mxGeometry x="20" y="620" width="140" height="36" as="geometry"/></mxCell>
+        <mxCell id="m5b" value="Replicable w/ 2x IMUs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EFE8;strokeColor=#888780;fontColor=#444441;fontSize=10;" vertex="1" parent="1"><mxGeometry x="175" y="620" width="140" height="36" as="geometry"/></mxCell>
+        <mxCell id="em5a" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#B4B2A9;" edge="1" source="m5" target="m5a" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="em5b" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#B4B2A9;" edge="1" source="m5" target="m5b" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
 
-    <!-- MARKET RESEARCH L2 -->
-    <mxCell id="m1" value="Consumer gap&#xa;No joint-angle tracker" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAECE7;strokeColor=#D85A30;fontColor=#712B13;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="20" y="320" width="155" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="m2" value="Xsens DOT&#xa;Clinical/lab grade" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAECE7;strokeColor=#D85A30;fontColor=#712B13;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="190" y="320" width="155" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="m3" value="Hinge Health&#xa;Sensors + PT team" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAECE7;strokeColor=#D85A30;fontColor=#712B13;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="20" y="390" width="155" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="m4" value="Athos EMG clothing&#xa;Muscle, not angle" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAECE7;strokeColor=#D85A30;fontColor=#712B13;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="190" y="390" width="155" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="m5" value="Technogym Biodrive&#xa;Force + angle + velocity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAECE7;strokeColor=#D85A30;fontColor=#712B13;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="20" y="460" width="155" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="m6" value="SyncKnee (2025)&#xa;Angle + swelling, research" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAECE7;strokeColor=#D85A30;fontColor=#712B13;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="190" y="460" width="155" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="m7" value="MagDot (academic)&#xa;±2.72° elbow accuracy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAECE7;strokeColor=#D85A30;fontColor=#712B13;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="20" y="530" width="155" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="m8" value="Kinetisense&#xa;Camera AI, no wearable" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAECE7;strokeColor=#D85A30;fontColor=#712B13;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="190" y="530" width="155" height="50" as="geometry" />
-    </mxCell>
+        <!-- HARDWARE -->
+        <mxCell id="hw1" value="2x Seeed XIAO&#xa;nRF52840 Sense ~$16ea" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1"><mxGeometry x="380" y="320" width="165" height="50" as="geometry"/></mxCell>
+        <mxCell id="hw2" value="2x LiPo 150mAh JST&#xa;~$5 each" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1"><mxGeometry x="560" y="320" width="165" height="50" as="geometry"/></mxCell>
+        <mxCell id="hw3" value="IMU: LSM6DS3&#xa;Built into XIAO" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1"><mxGeometry x="380" y="390" width="165" height="50" as="geometry"/></mxCell>
+        <mxCell id="hw4" value="Elastic armband&#xa;or velcro mount" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1"><mxGeometry x="560" y="390" width="165" height="50" as="geometry"/></mxCell>
+        <mxCell id="hw5" value="21x17.5mm form factor&#xa;Smallest in class" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1"><mxGeometry x="380" y="460" width="165" height="50" as="geometry"/></mxCell>
+        <mxCell id="hw6" value="Built-in LiPo charging&#xa;No extra circuit" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1"><mxGeometry x="560" y="460" width="165" height="50" as="geometry"/></mxCell>
+        <mxCell id="hw7" value="Total kit ~$50&#xa;2 boards + batteries" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1"><mxGeometry x="380" y="530" width="165" height="50" as="geometry"/></mxCell>
+        <mxCell id="hw8" value="Ready for custom PCB&#xa;Production chip" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1"><mxGeometry x="560" y="530" width="165" height="50" as="geometry"/></mxCell>
+        <mxCell id="ehw1" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b2" target="hw1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ehw2" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b2" target="hw2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ehw3" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b2" target="hw3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ehw4" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b2" target="hw4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ehw5" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b2" target="hw5" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ehw6" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b2" target="hw6" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ehw7" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b2" target="hw7" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ehw8" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b2" target="hw8" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="poc" value="PoC: Bicep Curl" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF3DE;strokeColor=#3B6D11;fontColor=#27500A;fontStyle=1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="460" y="630" width="180" height="44" as="geometry"/></mxCell>
+        <mxCell id="epoc" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#3B6D11;" edge="1" source="b2" target="poc" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="poc1" value="Upper arm sensor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF3DE;strokeColor=#639922;fontColor=#27500A;fontSize=10;" vertex="1" parent="1"><mxGeometry x="380" y="710" width="140" height="36" as="geometry"/></mxCell>
+        <mxCell id="poc2" value="Lower arm sensor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF3DE;strokeColor=#639922;fontColor=#27500A;fontSize=10;" vertex="1" parent="1"><mxGeometry x="540" y="710" width="140" height="36" as="geometry"/></mxCell>
+        <mxCell id="poc3" value="Angle delta = ROM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF3DE;strokeColor=#639922;fontColor=#27500A;fontSize=10;" vertex="1" parent="1"><mxGeometry x="460" y="770" width="140" height="36" as="geometry"/></mxCell>
+        <mxCell id="epoc1" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#639922;" edge="1" source="poc" target="poc1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="epoc2" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#639922;" edge="1" source="poc" target="poc2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="epoc3" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#639922;" edge="1" source="poc1" target="poc3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="epoc4" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#639922;" edge="1" source="poc2" target="poc3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
 
-    <mxCell id="em1" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#D85A30;" edge="1" source="b1" target="m1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="em2" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#D85A30;" edge="1" source="b1" target="m2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="em3" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#D85A30;" edge="1" source="b1" target="m3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="em4" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#D85A30;" edge="1" source="b1" target="m4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="em5" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#D85A30;" edge="1" source="b1" target="m5" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="em6" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#D85A30;" edge="1" source="b1" target="m6" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="em7" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#D85A30;" edge="1" source="b1" target="m7" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="em8" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#D85A30;" edge="1" source="b1" target="m8" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- FIRMWARE -->
+        <mxCell id="fw1" value="Joint angle calc&#xa;Quaternion delta" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1"><mxGeometry x="780" y="320" width="155" height="50" as="geometry"/></mxCell>
+        <mxCell id="fw2" value="Rep counter&#xa;Flex &gt;120 then &lt;30 = 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1"><mxGeometry x="950" y="320" width="155" height="50" as="geometry"/></mxCell>
+        <mxCell id="fw3" value="Deep sleep cycle&#xa;5uA idle, 12hr battery" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1"><mxGeometry x="780" y="390" width="155" height="50" as="geometry"/></mxCell>
+        <mxCell id="fw4" value="BLE GATT stream&#xa;angle + rep + timestamp" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1"><mxGeometry x="950" y="390" width="155" height="50" as="geometry"/></mxCell>
+        <mxCell id="fw5" value="Wake on motion&#xa;every 10ms in set" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1"><mxGeometry x="780" y="460" width="155" height="50" as="geometry"/></mxCell>
+        <mxCell id="fw6" value="Min/max ROM per rep&#xa;tracked per set" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1"><mxGeometry x="950" y="460" width="155" height="50" as="geometry"/></mxCell>
+        <mxCell id="fw7" value="Sensor fusion&#xa;Accel + gyro + mag" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1"><mxGeometry x="780" y="530" width="155" height="50" as="geometry"/></mxCell>
+        <mxCell id="fw8" value="Eccentric vs concentric&#xa;Angle + velocity dir" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1"><mxGeometry x="950" y="530" width="155" height="50" as="geometry"/></mxCell>
+        <mxCell id="efw1" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b3" target="fw1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="efw2" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b3" target="fw2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="efw3" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b3" target="fw3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="efw4" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b3" target="fw4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="efw5" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b3" target="fw5" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="efw6" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b3" target="fw6" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="efw7" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b3" target="fw7" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="efw8" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b3" target="fw8" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="fw3a" value="Active: 7-15mA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EFE8;strokeColor=#888780;fontColor=#444441;fontSize=10;" vertex="1" parent="1"><mxGeometry x="740" y="630" width="130" height="36" as="geometry"/></mxCell>
+        <mxCell id="fw3b" value="Sleep: 5uA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EFE8;strokeColor=#888780;fontColor=#444441;fontSize=10;" vertex="1" parent="1"><mxGeometry x="890" y="630" width="130" height="36" as="geometry"/></mxCell>
+        <mxCell id="fw3c" value="150mAh = ~12hr active" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EFE8;strokeColor=#888780;fontColor=#444441;fontSize=10;" vertex="1" parent="1"><mxGeometry x="815" y="690" width="155" height="36" as="geometry"/></mxCell>
+        <mxCell id="efw3a" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#B4B2A9;" edge="1" source="fw3" target="fw3a" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="efw3b" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#B4B2A9;" edge="1" source="fw3" target="fw3b" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="efw3c" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#B4B2A9;" edge="1" source="fw3b" target="fw3c" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
 
-    <!-- Technogym L3 -->
-    <mxCell id="m5a" value="6 resistance types" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EFE8;strokeColor=#888780;fontColor=#444441;fontSize=10;" vertex="1" parent="1">
-      <mxGeometry x="20" y="620" width="140" height="36" as="geometry" />
-    </mxCell>
-    <mxCell id="m5b" value="Replicable w/ 2x IMUs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EFE8;strokeColor=#888780;fontColor=#444441;fontSize=10;" vertex="1" parent="1">
-      <mxGeometry x="175" y="620" width="140" height="36" as="geometry" />
-    </mxCell>
-    <mxCell id="em5a" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#B4B2A9;" edge="1" source="m5" target="m5a" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="em5b" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#B4B2A9;" edge="1" source="m5" target="m5b" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- MOBILE APP -->
+        <mxCell id="ap1" value="MIT App Inventor&#xa;Fastest PoC (days)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#EF9F27;fontColor=#633806;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1180" y="320" width="155" height="50" as="geometry"/></mxCell>
+        <mxCell id="ap2" value="Flutter + flutter_blue&#xa;Best for production" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#EF9F27;fontColor=#633806;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1350" y="320" width="155" height="50" as="geometry"/></mxCell>
+        <mxCell id="ap3" value="Live angle graph&#xa;Real-time line chart" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#EF9F27;fontColor=#633806;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1180" y="390" width="155" height="50" as="geometry"/></mxCell>
+        <mxCell id="ap4" value="Rep counter UI&#xa;Large display" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#EF9F27;fontColor=#633806;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1350" y="390" width="155" height="50" as="geometry"/></mxCell>
+        <mxCell id="ap5" value="Session summary&#xa;Avg ROM, best ROM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#EF9F27;fontColor=#633806;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1180" y="460" width="155" height="50" as="geometry"/></mxCell>
+        <mxCell id="ap6" value="BLE scan + reconnect&#xa;GATT notifications" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#EF9F27;fontColor=#633806;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1350" y="460" width="155" height="50" as="geometry"/></mxCell>
+        <mxCell id="ap7" value="React Native option&#xa;Web dev friendly" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#EF9F27;fontColor=#633806;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1180" y="530" width="155" height="50" as="geometry"/></mxCell>
+        <mxCell id="ap8" value="Form alert&#xa;ROM below baseline" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#EF9F27;fontColor=#633806;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1350" y="530" width="155" height="50" as="geometry"/></mxCell>
+        <mxCell id="eap1" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#EF9F27;" edge="1" source="b4" target="ap1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="eap2" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#EF9F27;" edge="1" source="b4" target="ap2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="eap3" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#EF9F27;" edge="1" source="b4" target="ap3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="eap4" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#EF9F27;" edge="1" source="b4" target="ap4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="eap5" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#EF9F27;" edge="1" source="b4" target="ap5" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="eap6" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#EF9F27;" edge="1" source="b4" target="ap6" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="eap7" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#EF9F27;" edge="1" source="b4" target="ap7" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="eap8" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#EF9F27;" edge="1" source="b4" target="ap8" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
 
-    <!-- HARDWARE L2 -->
-    <mxCell id="hw1" value="2x Seeed XIAO&#xa;nRF52840 Sense ~$16ea" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="380" y="320" width="165" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="hw2" value="2x LiPo 150mAh JST&#xa;~$5 each" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="560" y="320" width="165" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="hw3" value="IMU: LSM6DS3&#xa;Built into XIAO" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="380" y="390" width="165" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="hw4" value="Elastic armband&#xa;or velcro mount" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="560" y="390" width="165" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="hw5" value="21x17.5mm form factor&#xa;Smallest in class" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="380" y="460" width="165" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="hw6" value="Built-in LiPo charging&#xa;No extra circuit" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="560" y="460" width="165" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="hw7" value="Total kit cost ~$50&#xa;2 boards + batteries" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="380" y="530" width="165" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="hw8" value="Production chip choice&#xa;Ready for custom PCB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="560" y="530" width="165" height="50" as="geometry" />
-    </mxCell>
+        <!-- V2 & FUTURE -->
+        <mxCell id="v1" value="Smart sleeve&#xa;Single joint target" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEDFE;strokeColor=#7F77DD;fontColor=#3C3489;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1600" y="320" width="155" height="50" as="geometry"/></mxCell>
+        <mxCell id="v2" value="Custom PCB&#xa;nRF52840 chip" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEDFE;strokeColor=#7F77DD;fontColor=#3C3489;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1770" y="320" width="155" height="50" as="geometry"/></mxCell>
+        <mxCell id="v3" value="More exercises&#xa;Squat, shoulder, deadlift" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEDFE;strokeColor=#7F77DD;fontColor=#3C3489;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1600" y="390" width="155" height="50" as="geometry"/></mxCell>
+        <mxCell id="v4" value="Force estimation&#xa;IMU + known weight" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEDFE;strokeColor=#7F77DD;fontColor=#3C3489;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1770" y="390" width="155" height="50" as="geometry"/></mxCell>
+        <mxCell id="v5" value="Textile sensors&#xa;SyncKnee approach" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEDFE;strokeColor=#7F77DD;fontColor=#3C3489;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1600" y="460" width="155" height="50" as="geometry"/></mxCell>
+        <mxCell id="v6" value="Haptic form feedback&#xa;Buzz on bad ROM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEDFE;strokeColor=#7F77DD;fontColor=#3C3489;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1770" y="460" width="155" height="50" as="geometry"/></mxCell>
+        <mxCell id="v7" value="Accuracy validation&#xa;vs goniometer ±5°" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEDFE;strokeColor=#7F77DD;fontColor=#3C3489;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1600" y="530" width="155" height="50" as="geometry"/></mxCell>
+        <mxCell id="v8" value="Cloud sync&#xa;Longitudinal tracking" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEDFE;strokeColor=#7F77DD;fontColor=#3C3489;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1770" y="530" width="155" height="50" as="geometry"/></mxCell>
+        <mxCell id="ev1" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#7F77DD;" edge="1" source="b5" target="v1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ev2" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#7F77DD;" edge="1" source="b5" target="v2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ev3" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#7F77DD;" edge="1" source="b5" target="v3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ev4" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#7F77DD;" edge="1" source="b5" target="v4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ev5" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#7F77DD;" edge="1" source="b5" target="v5" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ev6" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#7F77DD;" edge="1" source="b5" target="v6" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ev7" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#7F77DD;" edge="1" source="b5" target="v7" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ev8" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#7F77DD;" edge="1" source="b5" target="v8" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
 
-    <mxCell id="ehw1" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b2" target="hw1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="ehw2" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b2" target="hw2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="ehw3" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b2" target="hw3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="ehw4" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b2" target="hw4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="ehw5" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b2" target="hw5" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="ehw6" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b2" target="hw6" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="ehw7" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b2" target="hw7" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="ehw8" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b2" target="hw8" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
 
-    <!-- PoC under hardware -->
-    <mxCell id="poc" value="PoC: Bicep Curl" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF3DE;strokeColor=#3B6D11;fontColor=#27500A;fontStyle=1;fontSize=12;" vertex="1" parent="1">
-      <mxGeometry x="460" y="630" width="180" height="44" as="geometry" />
-    </mxCell>
-    <mxCell id="epoc" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#3B6D11;" edge="1" source="b2" target="poc" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="poc1" value="Upper arm sensor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF3DE;strokeColor=#639922;fontColor=#27500A;fontSize=10;" vertex="1" parent="1">
-      <mxGeometry x="380" y="710" width="140" height="36" as="geometry" />
-    </mxCell>
-    <mxCell id="poc2" value="Lower arm sensor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF3DE;strokeColor=#639922;fontColor=#27500A;fontSize=10;" vertex="1" parent="1">
-      <mxGeometry x="540" y="710" width="140" height="36" as="geometry" />
-    </mxCell>
-    <mxCell id="poc3" value="Angle delta = ROM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF3DE;strokeColor=#639922;fontColor=#27500A;fontSize=10;" vertex="1" parent="1">
-      <mxGeometry x="460" y="770" width="140" height="36" as="geometry" />
-    </mxCell>
-    <mxCell id="epoc1" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#639922;" edge="1" source="poc" target="poc1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="epoc2" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#639922;" edge="1" source="poc" target="poc2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="epoc3" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#639922;" edge="1" source="poc1" target="poc3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="epoc4" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#639922;" edge="1" source="poc2" target="poc3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+  <diagram id="page2" name="Notes &amp; Log">
+    <mxGraphModel dx="1622" dy="900" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="2000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
 
-    <!-- FIRMWARE L2 -->
-    <mxCell id="fw1" value="Joint angle calc&#xa;Quaternion delta" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="780" y="320" width="155" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="fw2" value="Rep counter&#xa;Flex &gt;120 then &lt;30 = 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="950" y="320" width="155" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="fw3" value="Deep sleep cycle&#xa;5uA idle, 12hr battery" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="780" y="390" width="155" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="fw4" value="BLE GATT stream&#xa;angle + rep + timestamp" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="950" y="390" width="155" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="fw5" value="Wake on motion&#xa;every 10ms in set" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="780" y="460" width="155" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="fw6" value="Min/max ROM per rep&#xa;tracked per set" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="950" y="460" width="155" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="fw7" value="Sensor fusion&#xa;Accel + gyro + mag" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="780" y="530" width="155" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="fw8" value="Eccentric vs concentric&#xa;Angle + velocity dir" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="950" y="530" width="155" height="50" as="geometry" />
-    </mxCell>
+        <mxCell id="hdr" value="Wearable ROM Tracker — Research &amp; Decision Log" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=22;fontStyle=1;fontColor=#26215C;" vertex="1" parent="1">
+          <mxGeometry x="200" y="20" width="1200" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="hdr2" value="Last updated: June 22, 2026" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontColor=#888780;" vertex="1" parent="1">
+          <mxGeometry x="200" y="60" width="1200" height="24" as="geometry" />
+        </mxCell>
 
-    <mxCell id="efw1" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b3" target="fw1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="efw2" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b3" target="fw2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="efw3" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b3" target="fw3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="efw4" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b3" target="fw4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="efw5" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b3" target="fw5" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="efw6" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b3" target="fw6" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="efw7" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b3" target="fw7" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="efw8" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1D9E75;" edge="1" source="b3" target="fw8" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- Market Research block -->
+        <mxCell id="n1h" value="Market Research — Jun 22, 2026" style="text;html=1;strokeColor=#993C1D;fillColor=#FAECE7;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontStyle=1;fontColor=#712B13;rounded=1;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="110" width="460" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="n1b" value="• No consumer product tracks joint-specific ROM for gym use&#xa;• Clinical trackers (Xsens DOT, Kinetisense) target labs and PT clinics&#xa;• Hinge Health: sensors + AI vision + clinical care team for rehab&#xa;• Athos: tracks EMG (muscle activation), not joint angles — different problem&#xa;• Technogym Biodrive: tracks angle, force curve, velocity, limb symmetry&#xa;  — 6 resistance types: isotonic, eccentric, viscous, elastic, no-inertia, eccentric overload&#xa;  — Most features replicable with 2x IMUs per joint&#xa;  — MyWellness Cloud: longitudinal tracking across connected equipment&#xa;• SyncKnee (2025 research): angle + swelling tracking — not a product yet&#xa;• MagDot (academic): ±2.72° elbow, ±4.14° knee, ±4.61° shoulder accuracy&#xa;• KEY INSIGHT: consumer gap is real — IMU tech is mature and cheap&#xa;• Best entry point: single-joint sleeve, knee (squat/cycling) or shoulder (press)" style="text;html=1;strokeColor=#F5C4B3;fillColor=#FAECE7;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=11;fontColor=#712B13;rounded=1;spacingLeft=12;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="148" width="460" height="260" as="geometry" />
+        </mxCell>
 
-    <!-- Deep sleep L3 -->
-    <mxCell id="fw3a" value="Active: 7-15mA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EFE8;strokeColor=#888780;fontColor=#444441;fontSize=10;" vertex="1" parent="1">
-      <mxGeometry x="740" y="630" width="130" height="36" as="geometry" />
-    </mxCell>
-    <mxCell id="fw3b" value="Sleep: 5uA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EFE8;strokeColor=#888780;fontColor=#444441;fontSize=10;" vertex="1" parent="1">
-      <mxGeometry x="890" y="630" width="130" height="36" as="geometry" />
-    </mxCell>
-    <mxCell id="fw3c" value="150mAh = ~12hr active" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EFE8;strokeColor=#888780;fontColor=#444441;fontSize=10;" vertex="1" parent="1">
-      <mxGeometry x="815" y="690" width="155" height="36" as="geometry" />
-    </mxCell>
-    <mxCell id="efw3a" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#B4B2A9;" edge="1" source="fw3" target="fw3a" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="efw3b" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#B4B2A9;" edge="1" source="fw3" target="fw3b" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="efw3c" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#B4B2A9;" edge="1" source="fw3b" target="fw3c" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- Hardware block -->
+        <mxCell id="n2h" value="Hardware — Jun 22, 2026" style="text;html=1;strokeColor=#0F6E56;fillColor=#E1F5EE;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontStyle=1;fontColor=#085041;rounded=1;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="540" y="110" width="460" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="n2b" value="• Microcontrollers considered: ESP32, Arduino Nano 33 BLE Sense, nRF52840&#xa;• IMUs considered: MPU-6050 (6-axis), BNO055 (9-axis, onboard fusion), ICM-42688&#xa;• CHOSEN: 2x Seeed XIAO nRF52840 Sense (~$16 each)&#xa;  — Smallest dev board in class: 21x17.5mm&#xa;  — Built-in LSM6DS3 IMU + BLE radio&#xa;  — Built-in LiPo charging circuit (no extra hardware needed)&#xa;  — Same nRF52840 chip used in production fitness wearables&#xa;  — Direct path to custom PCB when ready&#xa;• 2x LiPo 150mAh JST batteries (~$5 each)&#xa;• Mounting: elastic armband or velcro + athletic tape for PoC&#xa;• TOTAL KIT COST: ~$50 for both boards + batteries&#xa;• PoC: Bicep curl — one sensor upper arm, one lower arm&#xa;  — Angle between two quaternions = elbow ROM" style="text;html=1;strokeColor=#9FE1CB;fillColor=#E1F5EE;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=11;fontColor=#085041;rounded=1;spacingLeft=12;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="540" y="148" width="460" height="260" as="geometry" />
+        </mxCell>
 
-    <!-- APP L2 -->
-    <mxCell id="ap1" value="MIT App Inventor&#xa;Fastest PoC (days)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#EF9F27;fontColor=#633806;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="1180" y="320" width="155" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="ap2" value="Flutter + flutter_blue&#xa;Best for production" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#EF9F27;fontColor=#633806;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="1350" y="320" width="155" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="ap3" value="Live angle graph&#xa;Real-time line chart" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#EF9F27;fontColor=#633806;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="1180" y="390" width="155" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="ap4" value="Rep counter UI&#xa;Large display" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#EF9F27;fontColor=#633806;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="1350" y="390" width="155" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="ap5" value="Session summary&#xa;Avg ROM, best ROM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#EF9F27;fontColor=#633806;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="1180" y="460" width="155" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="ap6" value="BLE scan + reconnect&#xa;GATT notifications" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#EF9F27;fontColor=#633806;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="1350" y="460" width="155" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="ap7" value="React Native option&#xa;Web dev friendly" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#EF9F27;fontColor=#633806;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="1180" y="530" width="155" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="ap8" value="Form alert&#xa;ROM below baseline" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#EF9F27;fontColor=#633806;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="1350" y="530" width="155" height="50" as="geometry" />
-    </mxCell>
+        <!-- Firmware block -->
+        <mxCell id="n3h" value="Firmware — Jun 22, 2026" style="text;html=1;strokeColor=#0F6E56;fillColor=#E1F5EE;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontStyle=1;fontColor=#085041;rounded=1;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="440" width="460" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="n3b" value="• Core loop: read IMU → compute angle delta → detect rep → stream over BLE&#xa;• Rep detection: flex past 120° then return below 30° = 1 complete rep&#xa;• Track min/max ROM per rep for performance scoring&#xa;• Eccentric vs concentric: detectable via angle direction + velocity&#xa;• Deep sleep duty cycle (key for battery life):&#xa;  — Active draw (BLE + IMU): 7–15 mA&#xa;  — Idle: 1–3 mA&#xa;  — Deep sleep: 5 µA (0.005 mA)&#xa;  — 150mAh battery = ~12 hours active use&#xa;  — Wake every 10ms during set, sleep between sets&#xa;  — Same duty cycle approach as WHOOP and Fitbit&#xa;• BLE GATT: custom UUID, notify characteristic&#xa;  — Packet format: [angle_float, rep_int, timestamp_ms]&#xa;• Sensor fusion: accelerometer + gyroscope + magnetometer" style="text;html=1;strokeColor=#9FE1CB;fillColor=#E1F5EE;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=11;fontColor=#085041;rounded=1;spacingLeft=12;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="478" width="460" height="280" as="geometry" />
+        </mxCell>
 
-    <mxCell id="eap1" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#EF9F27;" edge="1" source="b4" target="ap1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="eap2" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#EF9F27;" edge="1" source="b4" target="ap2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="eap3" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#EF9F27;" edge="1" source="b4" target="ap3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="eap4" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#EF9F27;" edge="1" source="b4" target="ap4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="eap5" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#EF9F27;" edge="1" source="b4" target="ap5" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="eap6" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#EF9F27;" edge="1" source="b4" target="ap6" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="eap7" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#EF9F27;" edge="1" source="b4" target="ap7" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="eap8" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#EF9F27;" edge="1" source="b4" target="ap8" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- App block -->
+        <mxCell id="n4h" value="Mobile App — Jun 22, 2026" style="text;html=1;strokeColor=#854F0B;fillColor=#FAEEDA;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontStyle=1;fontColor=#633806;rounded=1;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="540" y="440" width="460" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="n4b" value="• Platform options:&#xa;  — MIT App Inventor: no-code, fastest PoC (days to working app)&#xa;  — Flutter + flutter_blue: cross-platform, best for production&#xa;  — React Native + BLE Manager: good for web developers&#xa;  — Swift (iOS) / Kotlin (Android): native, most control&#xa;• Core MVP features:&#xa;  — BLE scan, connect, auto-reconnect on open&#xa;  — Subscribe to GATT angle + rep notifications&#xa;  — Live real-time line chart of elbow angle over time&#xa;  — Show min/max ROM per rep as horizontal reference lines&#xa;  — Large rep count display with set timer&#xa;  — End session → summary: avg ROM, best ROM, total reps&#xa;• Future: form alert when ROM drops below personal baseline&#xa;• Future: longitudinal history charts across sessions" style="text;html=1;strokeColor=#FAC775;fillColor=#FAEEDA;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=11;fontColor=#633806;rounded=1;spacingLeft=12;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="540" y="478" width="460" height="280" as="geometry" />
+        </mxCell>
 
-    <!-- V2 L2 -->
-    <mxCell id="v1" value="Smart sleeve&#xa;Single joint target" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEDFE;strokeColor=#7F77DD;fontColor=#3C3489;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="1600" y="320" width="155" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="v2" value="Custom PCB&#xa;nRF52840 chip" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEDFE;strokeColor=#7F77DD;fontColor=#3C3489;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="1770" y="320" width="155" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="v3" value="More exercises&#xa;Squat, shoulder, deadlift" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEDFE;strokeColor=#7F77DD;fontColor=#3C3489;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="1600" y="390" width="155" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="v4" value="Force estimation&#xa;IMU + known weight" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEDFE;strokeColor=#7F77DD;fontColor=#3C3489;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="1770" y="390" width="155" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="v5" value="Textile sensors&#xa;SyncKnee approach" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEDFE;strokeColor=#7F77DD;fontColor=#3C3489;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="1600" y="460" width="155" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="v6" value="Haptic form feedback&#xa;Buzz on bad ROM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEDFE;strokeColor=#7F77DD;fontColor=#3C3489;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="1770" y="460" width="155" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="v7" value="Accuracy validation&#xa;vs goniometer ±5°" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEDFE;strokeColor=#7F77DD;fontColor=#3C3489;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="1600" y="530" width="155" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="v8" value="MyWellness-style cloud&#xa;Longitudinal tracking" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEDFE;strokeColor=#7F77DD;fontColor=#3C3489;fontSize=11;" vertex="1" parent="1">
-      <mxGeometry x="1770" y="530" width="155" height="50" as="geometry" />
-    </mxCell>
+        <!-- V2 block -->
+        <mxCell id="n5h" value="V2 &amp; Future — Jun 22, 2026" style="text;html=1;strokeColor=#534AB7;fillColor=#EEEDFE;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontStyle=1;fontColor=#3C3489;rounded=1;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="790" width="960" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="n5b" value="• Smart sleeve: single-joint targeting (knee for squats/cycling, shoulder for pressing)&#xa;• Custom PCB: nRF52840 chip — same as XIAO, direct path from dev board&#xa;• Expand exercises: squat depth (knee angle), shoulder press ROM, deadlift hip hinge&#xa;• Force estimation: add force sensor OR estimate from IMU acceleration + known weight&#xa;• Haptic feedback: buzz device when ROM drops below threshold (bad form)&#xa;• Accuracy validation target: within ±5° vs clinical goniometer&#xa;• Textile sensor approach (SyncKnee-style): poly(SBS) fiber + EGaIn alloy for sleeve integration&#xa;• Cloud sync (MyWellness-style): longitudinal ROM tracking across sessions and exercises&#xa;• Asymmetry detection: compare left vs right sensor readings per rep" style="text;html=1;strokeColor=#AFA9EC;fillColor=#EEEDFE;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=11;fontColor=#3C3489;rounded=1;spacingLeft=12;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="828" width="960" height="200" as="geometry" />
+        </mxCell>
 
-    <mxCell id="ev1" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#7F77DD;" edge="1" source="b5" target="v1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="ev2" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#7F77DD;" edge="1" source="b5" target="v2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="ev3" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#7F77DD;" edge="1" source="b5" target="v3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="ev4" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#7F77DD;" edge="1" source="b5" target="v4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="ev5" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#7F77DD;" edge="1" source="b5" target="v5" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="ev6" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#7F77DD;" edge="1" source="b5" target="v6" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="ev7" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#7F77DD;" edge="1" source="b5" target="v7" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="ev8" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#7F77DD;" edge="1" source="b5" target="v8" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- Next Steps block -->
+        <mxCell id="n6h" value="Next Steps / Open Tasks" style="text;html=1;strokeColor=#444441;fillColor=#F1EFE8;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontStyle=1;fontColor=#2C2C2A;rounded=1;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1060" width="960" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="n6b" value="[ ] Order 2x Seeed XIAO nRF52840 Sense + 2x LiPo 150mAh JST (~$50 total)&#xa;[ ] Choose mounting solution (sleeve, velcro, or elastic armband)&#xa;[ ] Set up Arduino IDE + Adafruit nRF52 board package + LSM6DS3 IMU library&#xa;[ ] Write firmware: read Euler angles → compute elbow angle delta → print to serial&#xa;[ ] Implement rep counter: detect flex/extension cycle (>120° then &lt;30°)&#xa;[ ] Implement deep sleep duty cycle between sets (target 5µA idle)&#xa;[ ] Implement BLE GATT service with angle + rep notify characteristic&#xa;[ ] Choose app platform (MIT App Inventor for speed / Flutter for production)&#xa;[ ] Build live angle graph in app (real-time line chart)&#xa;[ ] Build rep counter display + session summary screen&#xa;[ ] Validate accuracy vs goniometer (target ±5°)&#xa;[ ] Expand to second exercise (squat depth or shoulder press)" style="text;html=1;strokeColor=#D3D1C7;fillColor=#F1EFE8;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=11;fontColor=#444441;rounded=1;spacingLeft=12;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1098" width="960" height="230" as="geometry" />
+        </mxCell>
 
-    <!-- ==================== PAGE 2: NOTES ==================== -->
-    <mxCell id="p2" value="Notes &amp; Dated Log" style="swimlane;" vertex="1" parent="0">
-      <mxGeometry x="0" y="0" width="2000" height="1600" as="geometry" />
-    </mxCell>
-
-    <!-- Page 2 header -->
-    <mxCell id="hdr" value="Wearable ROM Tracker — Research &amp; Decision Log" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=20;fontStyle=1;fontColor=#26215C;" vertex="1" parent="p2">
-      <mxGeometry x="400" y="20" width="1200" height="40" as="geometry" />
-    </mxCell>
-    <mxCell id="hdr2" value="June 22, 2026" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontColor=#888780;" vertex="1" parent="p2">
-      <mxGeometry x="400" y="55" width="1200" height="24" as="geometry" />
-    </mxCell>
-
-    <!-- Market Research notes -->
-    <mxCell id="n1" value="&lt;b&gt;Market Research&lt;/b&gt; — Jun 22, 2026" style="text;html=1;strokeColor=#993C1D;fillColor=#FAECE7;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=13;fontColor=#712B13;rounded=1;spacingLeft=10;spacingTop=8;" vertex="1" parent="p2">
-      <mxGeometry x="40" y="100" width="440" height="30" as="geometry" />
-    </mxCell>
-    <mxCell id="n1b" value="• No consumer product tracks joint-specific ROM for gym use&#xa;• Clinical trackers (Xsens, Kinetisense) target labs/PT clinics&#xa;• Hinge Health uses sensors + AI vision + clinical team for rehab&#xa;• Athos tracks EMG (muscle activation), not joint angles — different problem&#xa;• Technogym Biodrive: tracks angle, force curve, velocity, limb symmetry&#xa;  — 6 resistance types (isotonic, eccentric, viscous, elastic, etc.)&#xa;  — Most features replicable with 2x IMUs on a joint&#xa;  — MyWellness Cloud: longitudinal tracking across connected equipment&#xa;• SyncKnee (2025 research): tracks angle AND swelling — not a product yet&#xa;• MagDot (academic): ±2.72° elbow, ±4.14° knee, ±4.61° shoulder accuracy&#xa;• KEY OPPORTUNITY: consumer gap is real. IMU tech is mature and cheap.&#xa;• Best entry point: single-joint sleeve — knee (squat/cycling) or shoulder (press)" style="text;html=1;strokeColor=#F5C4B3;fillColor=#FAECE7;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=11;fontColor=#712B13;rounded=1;spacingLeft=10;spacingTop=8;" vertex="1" parent="p2">
-      <mxGeometry x="40" y="132" width="440" height="250" as="geometry" />
-    </mxCell>
-
-    <!-- Hardware notes -->
-    <mxCell id="n2" value="&lt;b&gt;Hardware&lt;/b&gt; — Jun 22, 2026" style="text;html=1;strokeColor=#0F6E56;fillColor=#E1F5EE;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=13;fontColor=#085041;rounded=1;spacingLeft=10;spacingTop=8;" vertex="1" parent="p2">
-      <mxGeometry x="520" y="100" width="440" height="30" as="geometry" />
-    </mxCell>
-    <mxCell id="n2b" value="• Microcontrollers considered: ESP32, Arduino Nano 33 BLE Sense, nRF52840&#xa;• IMUs considered: MPU-6050 (6-axis), BNO055 (9-axis, onboard fusion), ICM-42688&#xa;• CHOSEN: 2x Seeed XIAO nRF52840 Sense (~$16 each)&#xa;  — Smallest dev board in class: 21x17.5mm&#xa;  — Built-in LSM6DS3 IMU + BLE radio&#xa;  — Built-in LiPo charging circuit (no extra hardware)&#xa;  — Same nRF52840 chip used in production fitness wearables&#xa;  — Transfers directly to custom PCB design later&#xa;• 2x LiPo 150mAh JST batteries (~$5 each)&#xa;• Mounting: elastic armband or velcro + athletic tape for PoC&#xa;• TOTAL KIT COST: ~$50 for both boards + batteries&#xa;• PoC exercise: Bicep curl&#xa;  — One sensor taped to upper arm, one to lower arm&#xa;  — Angle between the two quaternions = elbow ROM" style="text;html=1;strokeColor=#9FE1CB;fillColor=#E1F5EE;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=11;fontColor=#085041;rounded=1;spacingLeft=10;spacingTop=8;" vertex="1" parent="p2">
-      <mxGeometry x="520" y="132" width="440" height="250" as="geometry" />
-    </mxCell>
-
-    <!-- Firmware notes -->
-    <mxCell id="n3" value="&lt;b&gt;Firmware&lt;/b&gt; — Jun 22, 2026" style="text;html=1;strokeColor=#0F6E56;fillColor=#E1F5EE;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=13;fontColor=#085041;rounded=1;spacingLeft=10;spacingTop=8;" vertex="1" parent="p2">
-      <mxGeometry x="40" y="410" width="440" height="30" as="geometry" />
-    </mxCell>
-    <mxCell id="n3b" value="• Core loop: read IMU → compute angle delta → detect rep → stream over BLE&#xa;• Rep detection: flex past 120° then return below 30° = 1 complete rep&#xa;• Track min/max ROM per rep for performance scoring&#xa;• Eccentric vs concentric: detectable via angle direction + velocity&#xa;• Deep sleep duty cycle (key for battery life):&#xa;  — Active draw (BLE + IMU): 7–15 mA&#xa;  — Idle: 1–3 mA&#xa;  — Deep sleep: 5 µA (0.005 mA)&#xa;  — 150mAh battery = ~12 hours active use&#xa;  — Smart loop: wake every 10ms during set, sleep between sets&#xa;  — Same approach as WHOOP and Fitbit multi-day battery life&#xa;• BLE GATT service: custom UUID, notify characteristic&#xa;  — Packet: [angle_float, rep_int, timestamp_ms]&#xa;• Sensor fusion: accelerometer + gyroscope + magnetometer" style="text;html=1;strokeColor=#9FE1CB;fillColor=#E1F5EE;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=11;fontColor=#085041;rounded=1;spacingLeft=10;spacingTop=8;" vertex="1" parent="p2">
-      <mxGeometry x="40" y="442" width="440" height="250" as="geometry" />
-    </mxCell>
-
-    <!-- App notes -->
-    <mxCell id="n4" value="&lt;b&gt;Mobile App&lt;/b&gt; — Jun 22, 2026" style="text;html=1;strokeColor=#854F0B;fillColor=#FAEEDA;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=13;fontColor=#633806;rounded=1;spacingLeft=10;spacingTop=8;" vertex="1" parent="p2">
-      <mxGeometry x="520" y="410" width="440" height="30" as="geometry" />
-    </mxCell>
-    <mxCell id="n4b" value="• Platform options:&#xa;  — MIT App Inventor: no-code, fastest PoC (days to working app)&#xa;  — Flutter + flutter_blue: cross-platform, best for production&#xa;  — React Native + BLE Manager: good for web developers&#xa;  — Swift (iOS) / Kotlin (Android): native, most control&#xa;• Core features for MVP:&#xa;  — BLE scan, connect, auto-reconnect on open&#xa;  — Subscribe to GATT angle + rep notifications&#xa;  — Live real-time line chart of elbow angle over time&#xa;  — Show min/max ROM per rep as horizontal reference lines&#xa;  — Large rep count display with set timer&#xa;  — End session → summary card: avg ROM, best ROM, total reps&#xa;• Future: form alert when ROM drops below personal baseline&#xa;• Future: longitudinal history charts across sessions" style="text;html=1;strokeColor=#FAC775;fillColor=#FAEEDA;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=11;fontColor=#633806;rounded=1;spacingLeft=10;spacingTop=8;" vertex="1" parent="p2">
-      <mxGeometry x="520" y="442" width="440" height="250" as="geometry" />
-    </mxCell>
-
-    <!-- V2 notes -->
-    <mxCell id="n5" value="&lt;b&gt;V2 &amp; Future&lt;/b&gt; — Jun 22, 2026" style="text;html=1;strokeColor=#534AB7;fillColor=#EEEDFE;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=13;fontColor=#3C3489;rounded=1;spacingLeft=10;spacingTop=8;" vertex="1" parent="p2">
-      <mxGeometry x="40" y="720" width="920" height="30" as="geometry" />
-    </mxCell>
-    <mxCell id="n5b" value="• Smart sleeve form factor: single-joint targeting (knee for squats/cycling, shoulder for pressing)&#xa;• Custom PCB using nRF52840 chip — same as XIAO, direct path from dev board&#xa;• Expand exercises: squat depth (knee angle), shoulder press ROM, deadlift hip hinge&#xa;• Force estimation: add force sensor or estimate from IMU acceleration + known weight&#xa;• Haptic feedback: buzz device when form breaks (ROM drops below threshold)&#xa;• Accuracy validation target: within ±5° vs clinical goniometer&#xa;• Textile sensor approach (SyncKnee-style): poly(SBS) fiber + EGaIn alloy for sleeve integration&#xa;• MyWellness-style cloud: longitudinal ROM tracking across sessions and exercises&#xa;• Asymmetry detection: compare left vs right sensor readings per rep" style="text;html=1;strokeColor=#AFA9EC;fillColor=#EEEDFE;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=11;fontColor=#3C3489;rounded=1;spacingLeft=10;spacingTop=8;" vertex="1" parent="p2">
-      <mxGeometry x="40" y="752" width="920" height="180" as="geometry" />
-    </mxCell>
-
-    <!-- Next steps -->
-    <mxCell id="n6" value="&lt;b&gt;Next Steps / Open Tasks&lt;/b&gt;" style="text;html=1;strokeColor=#444441;fillColor=#F1EFE8;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=13;fontColor=#2C2C2A;rounded=1;spacingLeft=10;spacingTop=8;" vertex="1" parent="p2">
-      <mxGeometry x="40" y="960" width="920" height="30" as="geometry" />
-    </mxCell>
-    <mxCell id="n6b" value="[ ] Order 2x Seeed XIAO nRF52840 Sense + 2x LiPo 150mAh JST&#xa;[ ] Choose mounting solution (sleeve, velcro, armband)&#xa;[ ] Set up Arduino IDE + Adafruit nRF52 board package + LSM6DS3 library&#xa;[ ] Write firmware: read Euler angles → compute elbow angle delta → print to serial&#xa;[ ] Implement rep counter: detect flex/extension cycle&#xa;[ ] Implement deep sleep duty cycle between sets&#xa;[ ] Implement BLE GATT service with angle + rep notifications&#xa;[ ] Choose app platform (MIT App Inventor for speed, Flutter for production)&#xa;[ ] Build live angle graph in app&#xa;[ ] Build rep counter display + session summary screen&#xa;[ ] Validate accuracy vs goniometer (target ±5°)&#xa;[ ] Expand to second exercise (squat or shoulder press)" style="text;html=1;strokeColor=#D3D1C7;fillColor=#F1EFE8;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=11;fontColor=#444441;rounded=1;spacingLeft=10;spacingTop=8;" vertex="1" parent="p2">
-      <mxGeometry x="40" y="992" width="920" height="220" as="geometry" />
-    </mxCell>
-
-  </root>
-</mxGraphModel>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
