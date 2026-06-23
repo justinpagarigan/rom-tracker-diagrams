@@ -405,5 +405,222 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="page4" name="Acronyms">
+    <mxGraphModel dx="1622" dy="900" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- TITLE -->
+        <mxCell id="title" value="Acronym Reference — Wearable ROM Tracker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontStyle=1;fontSize=22;fontColor=#26215C;" vertex="1" parent="1">
+          <mxGeometry x="400" y="30" width="1400" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- ── COLUMN 1: HARDWARE ── -->
+        <mxCell id="col1_hdr" value="Hardware" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#0F6E56;fontColor=#085041;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="60" y="110" width="480" height="45" as="geometry" />
+        </mxCell>
+
+        <!-- rows: acronym | full name | what it does in your project -->
+        <mxCell id="h_row0" value="&lt;b&gt;Acronym&lt;/b&gt;" style="text;html=1;fillColor=#e8f5e9;strokeColor=#ccc;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="60" y="165" width="100" height="35" as="geometry"/></mxCell>
+        <mxCell id="h_row0b" value="&lt;b&gt;Stands For&lt;/b&gt;" style="text;html=1;fillColor=#e8f5e9;strokeColor=#ccc;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="165" y="165" width="200" height="35" as="geometry"/></mxCell>
+        <mxCell id="h_row0c" value="&lt;b&gt;In Your Project&lt;/b&gt;" style="text;html=1;fillColor=#e8f5e9;strokeColor=#ccc;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="370" y="165" width="170" height="35" as="geometry"/></mxCell>
+
+        <mxCell id="h1a" value="IMU" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=12;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="60" y="205" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="h1b" value="Inertial Measurement Unit" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="165" y="205" width="200" height="40" as="geometry"/></mxCell>
+        <mxCell id="h1c" value="BNO055 chip — measures orientation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=10;align=left;" vertex="1" parent="1"><mxGeometry x="370" y="205" width="170" height="40" as="geometry"/></mxCell>
+
+        <mxCell id="h2a" value="MCU" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=12;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="60" y="250" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="h2b" value="Microcontroller Unit" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="165" y="250" width="200" height="40" as="geometry"/></mxCell>
+        <mxCell id="h2c" value="Seeed XIAO nRF52840 — runs your firmware" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=10;align=left;" vertex="1" parent="1"><mxGeometry x="370" y="250" width="170" height="40" as="geometry"/></mxCell>
+
+        <mxCell id="h3a" value="PCB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=12;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="60" y="295" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="h3b" value="Printed Circuit Board" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="165" y="295" width="200" height="40" as="geometry"/></mxCell>
+        <mxCell id="h3c" value="V2 goal — custom board to replace dev kit" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=10;align=left;" vertex="1" parent="1"><mxGeometry x="370" y="295" width="170" height="40" as="geometry"/></mxCell>
+
+        <mxCell id="h4a" value="GPIO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=12;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="60" y="340" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="h4b" value="General Purpose Input/Output" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="165" y="340" width="200" height="40" as="geometry"/></mxCell>
+        <mxCell id="h4c" value="Pins on MCU that connect to sensors" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=10;align=left;" vertex="1" parent="1"><mxGeometry x="370" y="340" width="170" height="40" as="geometry"/></mxCell>
+
+        <mxCell id="h5a" value="LiPo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=12;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="60" y="385" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="h5b" value="Lithium Polymer (battery)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="165" y="385" width="200" height="40" as="geometry"/></mxCell>
+        <mxCell id="h5c" value="100–150mAh battery powering each XIAO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=10;align=left;" vertex="1" parent="1"><mxGeometry x="370" y="385" width="170" height="40" as="geometry"/></mxCell>
+
+        <mxCell id="h6a" value="JST" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=12;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="60" y="430" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="h6b" value="Japan Solderless Terminal (connector type)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="165" y="430" width="200" height="40" as="geometry"/></mxCell>
+        <mxCell id="h6c" value="Connector standard for the LiPo battery plug" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=10;align=left;" vertex="1" parent="1"><mxGeometry x="370" y="430" width="170" height="40" as="geometry"/></mxCell>
+
+        <mxCell id="h7a" value="DoF" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=12;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="60" y="475" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="h7b" value="Degrees of Freedom" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="165" y="475" width="200" height="40" as="geometry"/></mxCell>
+        <mxCell id="h7c" value="BNO055 = 9-DoF (accel+gyro+mag)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=10;align=left;" vertex="1" parent="1"><mxGeometry x="370" y="475" width="170" height="40" as="geometry"/></mxCell>
+
+        <mxCell id="h8a" value="OTA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=12;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="60" y="520" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="h8b" value="Over The Air (firmware update)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="165" y="520" width="200" height="40" as="geometry"/></mxCell>
+        <mxCell id="h8c" value="V2 feature — update firmware via BLE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=10;align=left;" vertex="1" parent="1"><mxGeometry x="370" y="520" width="170" height="40" as="geometry"/></mxCell>
+
+        <!-- ── COLUMN 2: SENSORS & SIGNALS ── -->
+        <mxCell id="col2_hdr" value="Sensors &amp; Signals" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#0F6E56;fontColor=#085041;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="580" y="110" width="480" height="45" as="geometry" />
+        </mxCell>
+
+        <mxCell id="s_row0" value="&lt;b&gt;Acronym&lt;/b&gt;" style="text;html=1;fillColor=#e8f5e9;strokeColor=#ccc;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="580" y="165" width="100" height="35" as="geometry"/></mxCell>
+        <mxCell id="s_row0b" value="&lt;b&gt;Stands For&lt;/b&gt;" style="text;html=1;fillColor=#e8f5e9;strokeColor=#ccc;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="685" y="165" width="200" height="35" as="geometry"/></mxCell>
+        <mxCell id="s_row0c" value="&lt;b&gt;In Your Project&lt;/b&gt;" style="text;html=1;fillColor=#e8f5e9;strokeColor=#ccc;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="890" y="165" width="170" height="35" as="geometry"/></mxCell>
+
+        <mxCell id="s1a" value="ROM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=12;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="580" y="205" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="s1b" value="Range of Motion" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="685" y="205" width="200" height="40" as="geometry"/></mxCell>
+        <mxCell id="s1c" value="The core metric — max minus min joint angle per rep" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=10;align=left;" vertex="1" parent="1"><mxGeometry x="890" y="205" width="170" height="40" as="geometry"/></mxCell>
+
+        <mxCell id="s2a" value="I2C" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=12;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="580" y="250" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="s2b" value="Inter-Integrated Circuit" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="685" y="250" width="200" height="40" as="geometry"/></mxCell>
+        <mxCell id="s2c" value="Protocol MCU uses to read BNO055 data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=10;align=left;" vertex="1" parent="1"><mxGeometry x="890" y="250" width="170" height="40" as="geometry"/></mxCell>
+
+        <mxCell id="s3a" value="SPI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=12;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="580" y="295" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="s3b" value="Serial Peripheral Interface" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="685" y="295" width="200" height="40" as="geometry"/></mxCell>
+        <mxCell id="s3c" value="Alt to I2C — faster but more wires (not used here)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=10;align=left;" vertex="1" parent="1"><mxGeometry x="890" y="295" width="170" height="40" as="geometry"/></mxCell>
+
+        <mxCell id="s4a" value="ADC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=12;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="580" y="340" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="s4b" value="Analog-to-Digital Converter" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="685" y="340" width="200" height="40" as="geometry"/></mxCell>
+        <mxCell id="s4c" value="Used by flex sensors to read bend as voltage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=10;align=left;" vertex="1" parent="1"><mxGeometry x="890" y="340" width="170" height="40" as="geometry"/></mxCell>
+
+        <mxCell id="s5a" value="DSP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=12;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="580" y="385" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="s5b" value="Digital Signal Processing" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="685" y="385" width="200" height="40" as="geometry"/></mxCell>
+        <mxCell id="s5c" value="Filtering and smoothing raw sensor data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=10;align=left;" vertex="1" parent="1"><mxGeometry x="890" y="385" width="170" height="40" as="geometry"/></mxCell>
+
+        <mxCell id="s6a" value="Hz" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=12;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="580" y="430" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="s6b" value="Hertz (cycles per second)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="685" y="430" width="200" height="40" as="geometry"/></mxCell>
+        <mxCell id="s6c" value="Sampling rate — target 50 Hz for smooth motion" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=10;align=left;" vertex="1" parent="1"><mxGeometry x="890" y="430" width="170" height="40" as="geometry"/></mxCell>
+
+        <mxCell id="s7a" value="LPF" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=12;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="580" y="475" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="s7b" value="Low-Pass Filter" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="685" y="475" width="200" height="40" as="geometry"/></mxCell>
+        <mxCell id="s7c" value="Smooths noisy angle readings on the MCU" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=10;align=left;" vertex="1" parent="1"><mxGeometry x="890" y="475" width="170" height="40" as="geometry"/></mxCell>
+
+        <mxCell id="s8a" value="ICC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=12;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="580" y="520" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="s8b" value="Intraclass Correlation Coefficient" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="685" y="520" width="200" height="40" as="geometry"/></mxCell>
+        <mxCell id="s8c" value="Accuracy score — IMU vs goniometer studies show ICC &gt;0.90" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=10;align=left;" vertex="1" parent="1"><mxGeometry x="890" y="520" width="170" height="40" as="geometry"/></mxCell>
+
+        <!-- ── COLUMN 3: WIRELESS & APP ── -->
+        <mxCell id="col3_hdr" value="Wireless &amp; App" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#854F0B;fontColor=#633806;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="110" width="480" height="45" as="geometry" />
+        </mxCell>
+
+        <mxCell id="w_row0" value="&lt;b&gt;Acronym&lt;/b&gt;" style="text;html=1;fillColor=#FFF3E0;strokeColor=#ccc;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="1100" y="165" width="100" height="35" as="geometry"/></mxCell>
+        <mxCell id="w_row0b" value="&lt;b&gt;Stands For&lt;/b&gt;" style="text;html=1;fillColor=#FFF3E0;strokeColor=#ccc;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="1205" y="165" width="200" height="35" as="geometry"/></mxCell>
+        <mxCell id="w_row0c" value="&lt;b&gt;In Your Project&lt;/b&gt;" style="text;html=1;fillColor=#FFF3E0;strokeColor=#ccc;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="1410" y="165" width="170" height="35" as="geometry"/></mxCell>
+
+        <mxCell id="w1a" value="BLE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=12;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="1100" y="205" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="w1b" value="Bluetooth Low Energy" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="1205" y="205" width="200" height="40" as="geometry"/></mxCell>
+        <mxCell id="w1c" value="Wireless link between XIAOs and phone app" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=10;align=left;" vertex="1" parent="1"><mxGeometry x="1410" y="205" width="170" height="40" as="geometry"/></mxCell>
+
+        <mxCell id="w2a" value="GATT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=12;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="1100" y="250" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="w2b" value="Generic Attribute Profile" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="1205" y="250" width="200" height="40" as="geometry"/></mxCell>
+        <mxCell id="w2c" value="BLE data structure — defines your angle characteristic" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=10;align=left;" vertex="1" parent="1"><mxGeometry x="1410" y="250" width="170" height="40" as="geometry"/></mxCell>
+
+        <mxCell id="w3a" value="UUID" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=12;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="1100" y="295" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="w3b" value="Universally Unique Identifier" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="1205" y="295" width="200" height="40" as="geometry"/></mxCell>
+        <mxCell id="w3c" value="ID assigned to each BLE service &amp; characteristic" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=10;align=left;" vertex="1" parent="1"><mxGeometry x="1410" y="295" width="170" height="40" as="geometry"/></mxCell>
+
+        <mxCell id="w4a" value="MTU" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=12;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="1100" y="340" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="w4b" value="Maximum Transmission Unit" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="1205" y="340" width="200" height="40" as="geometry"/></mxCell>
+        <mxCell id="w4c" value="Max bytes per BLE packet (~20B default, 244B max)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=10;align=left;" vertex="1" parent="1"><mxGeometry x="1410" y="340" width="170" height="40" as="geometry"/></mxCell>
+
+        <mxCell id="w5a" value="GAP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=12;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="1100" y="385" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="w5b" value="Generic Access Profile" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="1205" y="385" width="200" height="40" as="geometry"/></mxCell>
+        <mxCell id="w5c" value="Controls how XIAO advertises itself to phone" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=10;align=left;" vertex="1" parent="1"><mxGeometry x="1410" y="385" width="170" height="40" as="geometry"/></mxCell>
+
+        <mxCell id="w6a" value="ATT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=12;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="1100" y="430" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="w6b" value="Attribute Protocol" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="1205" y="430" width="200" height="40" as="geometry"/></mxCell>
+        <mxCell id="w6c" value="Lower-level protocol GATT is built on top of" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=10;align=left;" vertex="1" parent="1"><mxGeometry x="1410" y="430" width="170" height="40" as="geometry"/></mxCell>
+
+        <mxCell id="w7a" value="SDK" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=12;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="1100" y="475" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="w7b" value="Software Development Kit" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="1205" y="475" width="200" height="40" as="geometry"/></mxCell>
+        <mxCell id="w7c" value="nRF5 SDK — Nordic&apos;s tools for the nRF52840 chip" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=10;align=left;" vertex="1" parent="1"><mxGeometry x="1410" y="475" width="170" height="40" as="geometry"/></mxCell>
+
+        <mxCell id="w8a" value="API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=12;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="1100" y="520" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="w8b" value="Application Programming Interface" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="1205" y="520" width="200" height="40" as="geometry"/></mxCell>
+        <mxCell id="w8c" value="BLE library functions your app calls to read data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=10;align=left;" vertex="1" parent="1"><mxGeometry x="1410" y="520" width="170" height="40" as="geometry"/></mxCell>
+
+        <!-- ── COLUMN 4: MATH / ORIENTATION ── -->
+        <mxCell id="col4_hdr" value="Math &amp; Orientation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEDFE;strokeColor=#534AB7;fontColor=#3C3489;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="60" y="610" width="480" height="45" as="geometry" />
+        </mxCell>
+
+        <mxCell id="m_row0" value="&lt;b&gt;Acronym&lt;/b&gt;" style="text;html=1;fillColor=#EDE7F6;strokeColor=#ccc;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="60" y="665" width="100" height="35" as="geometry"/></mxCell>
+        <mxCell id="m_row0b" value="&lt;b&gt;Stands For&lt;/b&gt;" style="text;html=1;fillColor=#EDE7F6;strokeColor=#ccc;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="165" y="665" width="200" height="35" as="geometry"/></mxCell>
+        <mxCell id="m_row0c" value="&lt;b&gt;In Your Project&lt;/b&gt;" style="text;html=1;fillColor=#EDE7F6;strokeColor=#ccc;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="370" y="665" width="170" height="35" as="geometry"/></mxCell>
+
+        <mxCell id="m1a" value="IMU" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=12;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="60" y="705" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="m1b" value="Inertial Measurement Unit" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="165" y="705" width="200" height="40" as="geometry"/></mxCell>
+        <mxCell id="m1c" value="See Hardware column above" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=10;align=left;" vertex="1" parent="1"><mxGeometry x="370" y="705" width="170" height="40" as="geometry"/></mxCell>
+
+        <mxCell id="m2a" value="RPY / RPY" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=12;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="60" y="750" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="m2b" value="Roll, Pitch, Yaw (Euler angles)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="165" y="750" width="200" height="40" as="geometry"/></mxCell>
+        <mxCell id="m2c" value="3D orientation — pitch tracks elbow flexion angle" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=10;align=left;" vertex="1" parent="1"><mxGeometry x="370" y="750" width="170" height="40" as="geometry"/></mxCell>
+
+        <mxCell id="m3a" value="QUAT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=12;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="60" y="795" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="m3b" value="Quaternion (4D rotation math)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="165" y="795" width="200" height="40" as="geometry"/></mxCell>
+        <mxCell id="m3c" value="More accurate than Euler — avoids gimbal lock" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=10;align=left;" vertex="1" parent="1"><mxGeometry x="370" y="795" width="170" height="40" as="geometry"/></mxCell>
+
+        <mxCell id="m4a" value="DCM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=12;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="60" y="840" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="m4b" value="Direction Cosine Matrix" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="165" y="840" width="200" height="40" as="geometry"/></mxCell>
+        <mxCell id="m4c" value="Another 3D orientation representation used in fusion" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=10;align=left;" vertex="1" parent="1"><mxGeometry x="370" y="840" width="170" height="40" as="geometry"/></mxCell>
+
+        <mxCell id="m5a" value="SLERP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=12;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="60" y="885" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="m5b" value="Spherical Linear Interpolation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="165" y="885" width="200" height="40" as="geometry"/></mxCell>
+        <mxCell id="m5c" value="Smoothly interpolates between quaternion orientations" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=10;align=left;" vertex="1" parent="1"><mxGeometry x="370" y="885" width="170" height="40" as="geometry"/></mxCell>
+
+        <!-- ── COLUMN 5: ALGORITHMS ── -->
+        <mxCell id="col5_hdr" value="Algorithms &amp; Filters" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEDFE;strokeColor=#534AB7;fontColor=#3C3489;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="580" y="610" width="480" height="45" as="geometry" />
+        </mxCell>
+
+        <mxCell id="a_row0" value="&lt;b&gt;Acronym&lt;/b&gt;" style="text;html=1;fillColor=#EDE7F6;strokeColor=#ccc;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="580" y="665" width="100" height="35" as="geometry"/></mxCell>
+        <mxCell id="a_row0b" value="&lt;b&gt;Stands For&lt;/b&gt;" style="text;html=1;fillColor=#EDE7F6;strokeColor=#ccc;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="685" y="665" width="200" height="35" as="geometry"/></mxCell>
+        <mxCell id="a_row0c" value="&lt;b&gt;In Your Project&lt;/b&gt;" style="text;html=1;fillColor=#EDE7F6;strokeColor=#ccc;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="890" y="665" width="170" height="35" as="geometry"/></mxCell>
+
+        <mxCell id="a1a" value="KF" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=12;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="580" y="705" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="a1b" value="Kalman Filter" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="685" y="705" width="200" height="40" as="geometry"/></mxCell>
+        <mxCell id="a1c" value="Optimal sensor fusion — blends accel &amp; gyro estimates" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=10;align=left;" vertex="1" parent="1"><mxGeometry x="890" y="705" width="170" height="40" as="geometry"/></mxCell>
+
+        <mxCell id="a2a" value="CF" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=12;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="580" y="750" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="a2b" value="Complementary Filter" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="685" y="750" width="200" height="40" as="geometry"/></mxCell>
+        <mxCell id="a2c" value="Simpler fusion — mixes gyro short-term + accel long-term" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=10;align=left;" vertex="1" parent="1"><mxGeometry x="890" y="750" width="170" height="40" as="geometry"/></mxCell>
+
+        <mxCell id="a3a" value="IIR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=12;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="580" y="795" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="a3b" value="Infinite Impulse Response (filter type)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="685" y="795" width="200" height="40" as="geometry"/></mxCell>
+        <mxCell id="a3c" value="Common digital filter type for smoothing sensor data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=10;align=left;" vertex="1" parent="1"><mxGeometry x="890" y="795" width="170" height="40" as="geometry"/></mxCell>
+
+        <mxCell id="a4a" value="FIR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=12;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="580" y="840" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="a4b" value="Finite Impulse Response (filter type)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="685" y="840" width="200" height="40" as="geometry"/></mxCell>
+        <mxCell id="a4c" value="Alt filter — more stable, higher compute cost" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=10;align=left;" vertex="1" parent="1"><mxGeometry x="890" y="840" width="170" height="40" as="geometry"/></mxCell>
+
+        <mxCell id="a5a" value="PID" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=12;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="580" y="885" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="a5b" value="Proportional-Integral-Derivative (controller)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#ccc;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="685" y="885" width="200" height="40" as="geometry"/></mxCell>
+        <mxCell id="a5c" value="Not used here — common in robotics/motor control" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=10;align=left;" vertex="1" parent="1"><mxGeometry x="890" y="885" width="170" height="40" as="geometry"/></mxCell>
+
+        <!-- LEGEND -->
+        <mxCell id="legend_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#ccc;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="630" width="480" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_title" value="Legend" style="text;html=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=13;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="638" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="leg_hw" value="Green header = Hardware / Firmware" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#0F6E56;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="665" width="220" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="leg_bl" value="Orange header = Wireless / App" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#854F0B;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1345" y="665" width="220" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="leg_pu" value="Purple header = Math / Algorithms" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEDFE;strokeColor=#534AB7;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="698" width="220" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="leg_yw" value="Yellow cell = connects to your build" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1345" y="698" width="220" height="28" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
 </mxfile>
+
 
